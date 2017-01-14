@@ -28,14 +28,14 @@
   <distributionManagement>
   <repository>
   <id>deployment</id>
-  <name>Internal Releases1</name>
-  <url>http://54.171.140.167:8081/nexus/content/repositories/releases/</url>
+  <name>Releases</name>
+  <url>http://54.171.181.49:8083/nexus/content/repositories/arun-rel/</url>
   </repository>
  
   <snapshotRepository>
 <id>deployment</id>
-<name>Internal Releases</name>
-<url>http://54.171.140.167:8081/nexus/content/repositories/snapshots/</url>
+<name>Snapshots</name>
+<url>http://54.171.181.49:8083/nexus/content/repositories/arun-snap/</url>
 </snapshotRepository>
 </distributionManagement>
 
